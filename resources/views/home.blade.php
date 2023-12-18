@@ -14,7 +14,7 @@
                     @foreach($comics as $comic)
                     <div class="col-2">
                         <div>
-                            <img src="{{$comic['thumb']}}" alt="" class="w-50">
+                            <img src="{{$comic['thumb']}}" alt="" class="w-100">
                         </div>
                         <div>
                             <h5>{{$comic['series']}}</h5>
@@ -29,10 +29,11 @@
         <div class="container">
             <div class="d-flex nav align-items-center justify-content-center">
                 <div class="px-3 nav-item d-flex align-items-center py-4">
-                    <div><img  alt=""></div>
-                    <span class="px-2 text-white">DC</span>
-                    <span class="px-2 text-white">COMICS</span>
-                    <span class="px-2 text-white">SHOP</span>
+                    @foreach($menu as $item)
+                    <div>
+                        <img src="{{$item['image']}}" alt="">
+                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
