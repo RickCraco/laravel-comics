@@ -33,7 +33,7 @@
                     <div>
                         <img src="{{$item['image']}}" alt="" class="my-img">
                     </div>
-                    <span>{{$item['title']}}</span>
+                    <span class="text-white">{{$item['title']}}</span>
                     @endforeach
                 </div>
             </div>
