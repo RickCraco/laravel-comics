@@ -30,7 +30,9 @@
             <div class="d-flex nav align-items-center justify-content-center">
                 <div class="px-3 nav-item d-flex align-items-center py-4">
                     <div><img  alt=""></div>
-                    <span class="px-2 text-white"></span>
+                    <span class="px-2 text-white">DC</span>
+                    <span class="px-2 text-white">COMICS</span>
+                    <span class="px-2 text-white">SHOP</span>
                 </div>
             </div>
         </div>
