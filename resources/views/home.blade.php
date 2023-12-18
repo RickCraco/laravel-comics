@@ -31,7 +31,7 @@
                 <div class="px-3 nav-item d-flex align-items-center py-4">
                     @foreach($menu as $item)
                     <div>
-                        <img src="{{$item['image']}}" alt="" class="w-100">
+                        <img src="{{$item['image']}}" alt="" class="my-img">
                     </div>
                     <span>{{$item['title']}}</span>
                     @endforeach
