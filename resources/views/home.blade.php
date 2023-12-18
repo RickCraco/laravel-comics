@@ -11,7 +11,16 @@
             <section>
             <div class="container py-5">
                 <div class="row">
-                    
+                    @foreach($comics as $comic)
+                    <div class="col-2">
+                        <div>
+                            <img src="{{$comic['thumb']}}" alt="">
+                        </div>
+                        <div>
+                            <h5>{{$comic['series']}}</h5>
+                        </div>
+                    </div>
+                    @endforeach
                 </div>
             </div>
         </section>
