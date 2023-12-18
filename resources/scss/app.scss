@@ -10,7 +10,7 @@ $fa-font-path: "../webfonts" !default;
 @import '~bootstrap/scss/bootstrap';
 
 footer{
-    background-image: url('/img/footer-bg.jpg');
+    background-image: url('../img/footer-bg.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -44,7 +44,7 @@ nav {
 
 .sezione-top {
     height: 40vh;
-    background-image: url('/img/jumbotron.jpg');
+    background-image: url('../img/jumbotron.jpg');
     background-size: 100%;
 }
 
