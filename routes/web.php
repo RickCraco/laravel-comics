@@ -18,3 +18,7 @@ Route::get('/', function () {
     $menu = config('menu.navcontent');
     return view('home', compact('comics'), compact('menu'));
 });
+
+Route::get('/characters', function () {
+    return(view('characters'));
+});
