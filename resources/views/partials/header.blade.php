@@ -4,7 +4,7 @@
         <ul class="d-flex nav">
             <li class="px-3 nav-item" ><a href="/" class="nav-link active">HOME</a></li>
             <li class="px-3 nav-item" ><a href="/characters" class="nav-link">CHARACTERS</a></li>
-            <li class="px-3 nav-item" ><a href="#" class="nav-link">COMICS</a></li>
+            <li class="px-3 nav-item" ><a href="/comics" class="nav-link">COMICS</a></li>
             <li class="px-3 nav-item" ><a href="#" class="nav-link">MOVIES</a></li>
             <li class="px-3 nav-item" ><a href="#" class="nav-link">SHOP</a></li>
             <li class="px-3 nav-item" ><a href="#" class="nav-link">TV</a></li>
