@@ -6,7 +6,7 @@
 
 <main>
     <section class="container">
-        <h1>{{$comic['series]}}</h1>
+        <h1>{{$comic['series']}}</h1>
         <div class="row gy-4">
             <div class="col-8">
                 <div class="card">
@@ -20,3 +20,5 @@
         </div>
     </section>
 </main>
+
+@endsection
