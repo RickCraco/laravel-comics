@@ -27,3 +27,14 @@ Route::get('/comics',function(){
     $comics = config('comics.comics');
     return view('comics.index', compact('comics'));
 })->name('comics.index');
+
+Route::get('/comics/{index}',function($index){
+    $comics = config('comics.comics');
+
+    if($index >= 0 && $index < count($comics)){
+        $comic = $comics[$index];
+        return view('comics.show', compact('comic'));
+    }else{
+        abort(404);
+    }
+})->name('comics.show');
