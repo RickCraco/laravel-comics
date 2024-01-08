@@ -1,59 +1,63 @@
-<footer>
-    <div class="container">
-        <div class="row">
-
-            <div class="col-6 py-3 d-flex my-5">
-                <div>
-                    <ul class="">
-                        <li><h4 class="text-white">Dc Comics</h4></li>
-                        <li class="text-white nav-item">DC</li>
-                        <li class="text-white nav-item">DC Universe</li>
-                        <li class="text-white nav-item">DC Power Visa</li>
-                        <li class="text-white nav-item">Shop DC</li>
-                        <li class="text-white nav-item">Shop DC Collectibles</li>
-                    </ul>
-
-                    <ul>
-                        <li><h4 class="text-white">SHOP</h4></li>
-                        <li class="text-white nav-item">Shop</li>
-                        <li class="text-white nav-item">Shop DC</li>
-                        <li class="text-white nav-item">Shop DC Collectibles</li>
-                    </ul>
-                </div>
-                    
-                <div>
-                    <ul>
-                        <li><h4 class="text-white">DC</h4></li>
-                        <li class="text-white nav-item">Term Of Use</li>
-                        <li class="text-white nav-item">Privacy policy (New)</li>
-                        <li class="text-white nav-item">Ad Choices</li>
-                        <li class="text-white nav-item">Advertising</li>
-                        <li class="text-white nav-item">Jobs</li>
-                        <li class="text-white nav-item">Subscriptions</li>
-                        <li class="text-white nav-item">Talent Workshops</li>
-                        <li class="text-white nav-item">CPSC Certificates</li>
-                        <li class="text-white nav-item">Ratings</li>
-                        <li class="text-white nav-item">Shop Help</li>
-                        <li class="text-white nav-item">Contact Us</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <ul>
-                        <li><h4 class="text-white">SITES</h4></li>
-                        <li class="text-white nav-item">DC</li>
-                        <li class="text-white nav-item">MAD Magazine</li>
-                        <li class="text-white nav-item">DC Kids</li>
-                        <li class="text-white nav-item">DC Universe</li>
-                        <li class="text-white nav-item">DC Power Visa</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-6 position-relative">
-                <img src="img/dc-logo-bg.png" alt="">
-            </div>
-
+<div class="bg-main">
+    <div class="container d-flex">
+        <div class="py-4 pe-3 text-light">
+            <h4>DC COMICS</h4>
+            <ul class="p-0">
+                <li><a href=""></a>Characters</li>
+                <li><a href=""></a>Comics</li>
+                <li><a href=""></a>Movies</li>
+                <li><a href=""></a>Tv</li>
+                <li><a href=""></a>Games</li>
+                <li><a href=""></a>Videos</li>
+                <li><a href=""></a>News</li>
+            </ul>
+            <h4>SHOP</h4>
+            <ul class="p-0">
+                <li><a href="" class="text-light">Shop DC</a></li>
+                <li><a href="" class="text-light">Shop DC Collectibles</a></li>
+            </ul>
+        </div>
+        <div class="py-4 pe-3 text-light">
+            <h4>DC</h4>
+            <ul class="p-0">
+                <li><a href="" class="text-light">Terms of Use</a></li>
+                <li><a href="" class="text-light">Privacy Policy (New)</a></li>
+                <li><a href="" class="text-light">Ad Choices</a></li>
+                <li><a href="" class="text-light">Advertising</a></li>
+                <li><a href="" class="text-light">Jobs</a></li>
+                <li><a href="" class="text-light">Subscriptions</a></li>
+                <li><a href="" class="text-light">Talent Workshops</a></li>
+                <li><a href="" class="text-light">CPSC Certificates</a></li>
+                <li><a href="" class="text-light">Ratings</a></li>
+                <li><a href="" class="text-light">Shop Help</a></li>
+                <li><a href="" class="text-light">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="py-4 pe-3 text-light">
+            <h4>SITES</h4>
+            <ul class="p-0">
+                <li><a href="" class="text-light">DC</a></li>
+                <li><a href="" class="text-light">MAD Magazine</a></li>
+                <li><a href="" class="text-light">DC Kids</a></li>
+                <li><a href="" class="text-light">DC Universe</a></li>
+                <li><a href="" class="text-light">DC Power Visa</a></li>
+            </ul>
+        </div>
+        <div class="bg-main-logo"></div>
+    </div>
+</div>
+<div class="bg-grey py-4">
+    <div class="container d-flex justify-content-between align-items-center p-0">
+        <div>
+            <button class="btn btn-primary">SIGN-UP NOW</button>
+        </div>
+        <div class="d-flex">
+            <h4 class="pe-4 text-light">FOLLOW US</h4>
+            <img src="/images/footer-facebook.png" alt="" class="pe-4">
+            <img src="/images/footer-twitter.png" alt="" class="pe-4">
+            <img src="/images/footer-youtube.png" alt="" class="pe-4">
+            <img src="/images/footer-pinterest.png" alt="" class="pe-4">
+            <img src="/images/footer-periscope.png" alt="">
         </div>
     </div>
-</footer>
+</div>

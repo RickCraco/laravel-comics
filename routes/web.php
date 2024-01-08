@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ComicController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,27 +15,30 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $comics = config('comics.comics');
-    $menu = config('menu.navcontent');
-    return view('home', compact('comics'), compact('menu'));
-});
+    $content = config('bluebar.content');
+    return view('home', compact('content'));
+})->name('home');
 
-Route::get('/characters', function () {
-    return(view('characters'));
-});
+Route::get('/movie', function () {
+    $product = config('comics.comic');
+    $content = config('bluebar.content');
+    return view('pages.movie', compact('product', 'content'));
+})->name('movie');
 
-Route::get('/comics',function(){
-    $comics = config('comics.comics');
-    return view('comics.index', compact('comics'));
-})->name('comics.index');
+// Route::get('/comics', function () {
+//     $product = config('comics.comic');
+//     $content = config('bluebar.content');
+//     return view('comics.index', compact('product', 'content'));
+// })->name('comics.index');
 
-Route::get('/comics/{index}',function($index){
-    $comics = config('comics.comics');
-
-    if($index >= 0 && $index < count($comics)){
-        $comic = $comics[$index];
-        return view('comics.show', compact('comic'));
-    }else{
-        abort(404);
-    }
-})->name('comics.show');
+// Route::get('/comics/{id}', function ($id) {
+//     $product = config('comics.comic');
+//     $content = config('bluebar.content');
+//     if ($id >= 0 && $id < count($product)) {
+//         $product = $product[$id];
+//         return view('comics.show', compact('product', 'content'));
+//     } else {
+//         abort(404);
+//     }
+// })->name('comics.show');
+Route::resource('comics', ComicController::class);

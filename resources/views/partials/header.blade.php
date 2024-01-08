@@ -1,16 +1,20 @@
-<header>
-    <div class="container d-flex align-items-center justify-content-between py-3">
-        <img src="/img/dc-logo.png" alt="logo">
-        <ul class="d-flex nav">
-            <li class="px-3 nav-item" ><a href="/" class="nav-link active">HOME</a></li>
-            <li class="px-3 nav-item" ><a href="/characters" class="nav-link">CHARACTERS</a></li>
-            <li class="px-3 nav-item" ><a href="/comics" class="nav-link">COMICS</a></li>
-            <li class="px-3 nav-item" ><a href="#" class="nav-link">MOVIES</a></li>
-            <li class="px-3 nav-item" ><a href="#" class="nav-link">SHOP</a></li>
-            <li class="px-3 nav-item" ><a href="#" class="nav-link">TV</a></li>
-            <li class="px-3 nav-item" ><a href="#" class="nav-link">GAMES</a></li>
-            <li class="px-3 nav-item" ><a href="#" class="nav-link">COLLECTIBLES</a></li>
-            <li class="px-3 nav-item" ><a href="#" class="nav-link">VIDEOS</a></li>
-        </ul>
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center py-4">
+        <img src='{{Vite::asset('/resources/images/dc-logo.png')}}' alt="Logo-DC">
+        <div>
+            <ul class="d-flex">
+                <li class="pe-4 text-uppercase"><a href="">Characters</a></li>
+                <li class="pe-4 text-uppercase"><a href="{{route('comics.index')}}">Comics</a></li>
+                <li class="pe-4 text-uppercase"><a href="{{route('movie')}}">Movies</a></li>
+                <li class="pe-4 text-uppercase"><a href="">TV</a></li>
+                <li class="pe-4 text-uppercase"><a href="">Games</a></li>
+                <li class="pe-4 text-uppercase"><a href="">Collectibles</a></li>
+                <li class="pe-4 text-uppercase"><a href="">Videos</a></li>
+                <li class="pe-4 text-uppercase"><a href="">Fans</a></li>
+                <li class="pe-4 text-uppercase"><a href="">News</a></li>
+                <li class="pe-4 text-uppercase"><a href="">Shop</a></li>
+            </ul>
+        </div>
     </div>
-</header>
+</div>
+<div class="jumbotron"></div>

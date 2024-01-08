@@ -9,46 +9,48 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-footer{
-    background-image: url('../img/footer-bg.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-li{
+li {
     list-style: none;
 }
 
-.boack {
-    background-color: black;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.my-bg {
-    background-color: rgb(18, 146, 231);
+.jumbotron {
+    height: 400px;
+    background-image: url('../images/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-nav {
-    position: relative;
-    z-index: 1000;
+.series-img {
+    width: 200px;
+    height: 200px;
+    object-position: top;
 }
 
-.sezione-top {
-    height: 40vh;
-    background-image: url('../img/jumbotron.jpg');
-    background-size: 100%;
+.title {
+    width: 90%;
+    padding: 5px 0;
 }
 
-h3{
-    position: absolute;
-    bottom: -10%;
-    left: 22%;
-    z-index: 5000;
+.blue-bar-image{
+    width: 40px;
 }
 
-body{
-    overflow-x: hidden;
+.bg-main {
+    background-image: url('/images/footer-bg.jpg');
+    background-size: cover;
 }
 
-.my-img{
-    width: 50px;
-    height: 65px;
+.bg-main-logo {
+    background-image: url('/images/dc-logo-bg.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.bg-grey {
+    background-color: rgb(53, 53, 53)
 }

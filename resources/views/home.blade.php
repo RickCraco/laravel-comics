@@ -3,41 +3,15 @@
 @section('title', 'Home')
 
 @section('content')
-<nav>
-    <div class="py-4 text-white boack">
-        <section class="w-100 sezione-top position-relative">
-            <h3 class="bg-primary text-white text-uppercase p-3">Current series</h3>
-        </section>
-            <section>
-            <div class="container py-5">
-                <div class="row">
-                    @foreach($comics as $comic)
-                    <div class="col-2">
-                        <div>
-                            <img src="{{$comic['thumb']}}" alt="" class="w-100">
-                        </div>
-                        <div>
-                            <h5>{{$comic['series']}}</h5>
-                        </div>
-                    </div>
-                    @endforeach
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="my-bg" id="div-blu ">
-        <div class="container">
-            <div class="d-flex nav align-items-center justify-content-center">
-                <div class="px-3 nav-item d-flex align-items-center py-4">
-                    @foreach($menu as $item)
-                    <div>
-                        <img src="{{$item['image']}}" alt="" class="my-img">
-                    </div>
-                    <span class="text-white">{{$item['title']}}</span>
-                    @endforeach
-                </div>
-            </div>
+<main>
+    <div class="bg-primary d-flex py-4">
+        <div class="container d-flex justify-content-between align-items-center p-3">
+            @foreach ($content as $el)
+            <img src="{{$el['img']}}" alt="" class="blue-bar-image">
+            <span class="p-2 text-uppercase text-light">{{ $el['text'] }}</span>
+            @endforeach
         </div>
     </div>
-</nav>
+</main>
+
 @endsection
